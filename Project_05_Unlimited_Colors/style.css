@@ -1,0 +1,72 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-bottom: solid 1px #aaa;
+    background-color: rgba(236, 236, 114, 0.986);
+  }
+  nav a {
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    background-color: #000000;
+    color: #eee;
+    font-size: 20px;
+  }
+  nav a:hover
+  {
+    background-color: rgb(255, 0, 68);
+  }
+  h1
+  {
+    text-align: center;
+    background-color: white;
+  }
+  #start
+  {
+    display: inline-block;
+min-width: 9rem;
+padding: 0.5rem;
+border-radius: 0.5rem;
+text-align: center;
+text-decoration: none;
+color: #1b1b1b;
+background-color: black;
+color: #eee;
+font-size: 25px;
+border: none;
+  }
+  #stop
+  {
+    display: inline-block;
+min-width: 9rem;
+padding: 0.5rem;
+border-radius: 0.5rem;
+text-align: center;
+text-decoration: none;
+color: #1b1b1b;
+background-color: black;
+color: #eee;
+font-size: 25px;
+border: none;
+  }
+
+  #start:hover
+  {
+    background-color: rgb(255, 0, 68);
+  }
+  #stop:hover
+  {
+    background-color: rgb(255, 0, 68);
+  }
+  .buttons
+  {
+    text-align: center;
+  }
